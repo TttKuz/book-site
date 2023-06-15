@@ -1,0 +1,416 @@
+/* ГОРДОСТЬ И ПРЕДУБЕЖДЕНИЕ */
+.header1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+  width: 1180px;
+  height: 450px;
+  margin: 50px 0 0 370px;
+  backdrop-filter: blur(2px);
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.h2 {
+  width: 1180px;
+  height: 180px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #000000;
+  backdrop-filter: blur(2px);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.p1{
+  width: 780px;
+  height: 35px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 143%;
+  text-align: center;
+  color: #2E363E;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+
+/* О ЧЕМ КНИГА? */
+.placeholder-icon {
+  position: absolute;
+  top: 100px;
+  left: 1050px;
+  width: 500px;
+  height: 620px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.h3 {
+  width: 580px;
+  height: 60px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  letter-spacing: -1px;
+  color: #2E363E;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.span {
+  display: block;
+}
+
+.p2 {
+  padding: 20px 0px 0px 0px;
+  width: 580px;
+  height: 524px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 143%;
+  letter-spacing: -0.2px;
+  color: #434B53;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.header2,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.header2 {
+  overflow: hidden;
+  gap: var(--gap-5xl);
+}
+
+.text {
+  position: absolute;
+  top: 100px;
+  left: 370px;
+}
+
+.div1 {
+  width: 1920px;
+  height: 860px;
+  margin: 0 0 100px 0;
+  background: linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), #BBBAB3;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.div1,
+.h4,
+.icon-child {
+  position: relative;
+}
+
+
+/* ЦИТАТЫ ПЕРСОНАЖЕЙ */
+.h4 {
+  width: 1180px;
+  height: 64px;
+  margin: 70px 0px 0px 0px; 
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133%;
+  display: flex;
+  align-items: flex-end;
+  color: #2E363E;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon-child {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+
+.blank-line4 {
+  margin: 0;
+  letter-spacing: -0.2px;
+}
+
+.p4 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.div3 {
+  width: 370px;
+  height: 181px;
+  margin: 0 0 60px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 143%;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #2E363E;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.icon1,
+.text1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.text1 {
+  margin: 0;
+  width: 370px; 
+}
+
+.icon1 {
+  width: 1200px;
+  gap: var(--gap-5xl);
+} 
+
+
+.span6 {
+  font-weight: 600;
+}
+
+.p5 {
+  width: 370px;
+  height: 241px;
+  margin: 0 0 60px 0;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 143%;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #2E363E;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+} 
+
+.text2 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.blank-line9 {
+  letter-spacing: -0.2px;
+  line-height: 143%;
+}
+
+.blank-line11 {
+  line-height: 150%;
+}
+
+.blank-line10 {
+  display: block;
+  font-size: 16px;
+}
+
+.span12 {
+  letter-spacing: -0.2px;
+  line-height: 143%;
+  font-weight: 600;
+}
+ 
+.p6 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 370px;
+  height: 240px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 143%;
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #2E363E;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.text3 {
+  width: 370px;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon2,
+.icons,
+.text3 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.icon2 {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-5xl);
+  }
+
+.icons {
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+
+.content,
+.div2,
+.icon3,
+.icons {
+  overflow: hidden;
+}
+
+.content,
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content {
+  width: 1200px;
+  gap: var(--gap-41xl);
+  text-align: center;
+  font-size: var(--px-regular1-size);
+}
+
+.div2 { 
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
+   ),
+    #bbbab3;
+  width: 1920px;
+  height: 1470px;
+  margin: 0 0 100px 0;
+  flex-shrink: 0;
+  padding: var(--padding-81xl) var(--padding-351xl);
+  box-sizing: border-box;
+  gap: 80px;
+}
+
+
+/* АТМОСФЕРА КНИГИ */
+.h5,
+.p7 {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+  width: 1200px;
+  }
+
+.h5 {
+  height: 70px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 133%;
+  text-align: center;
+  color: #2E363E;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.p7 {
+  height: 35px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 143%;
+  text-align: center;
+  color: #2E363E;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+  
+.header3 {
+    width: 1200px;
+    margin: 90px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+}
+
+.content-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  width: 1920px;
+  height: 1920px;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.div4 {
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.4),
+        rgba(255, 255, 255, 0.4)
+      ),
+      #bbbab3;
+    width: 1920px;
+    height: 2230px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    padding: var(--padding-81xl) 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 100px;
+    text-align: center;
+  }
